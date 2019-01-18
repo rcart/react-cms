@@ -22,7 +22,6 @@ body {
 }
 
 .hero-pict {
-  content: url('../assets/homer-hero.jpg');
   width: 200px;
   height: 200px;
   border-radius: 50%;
