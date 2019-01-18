@@ -1,9 +1,49 @@
+/* Main imports and misc */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+body {
+  background-color: rgb(14, 15, 15);
+  font-family: 'Roboto', sans-serif;
+}
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 95vh;
 }
+
 .hero {
   text-align: center;
+  color: gray;
+}
+
+.hero > * {
+  margin: 8px;
+}
+
+.hero-pict {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+   /* filter: drop-shadow(0px 0px 8px cyan); */
+  margin-bottom: 0px;
+}
+
+.hero-title {
+  color: lightgray;
+  font-weight: normal;
+}
+
+.hero-social {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+}
+
+.hero-social > a {
+  color: lightgray;
+}
+
+.hero-social > a:hover {
+  filter: drop-shadow(0px 0px 5px cyan);
 }
