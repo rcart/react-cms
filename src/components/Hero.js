@@ -5,7 +5,7 @@ class Hero extends React.Component {
     return (
       <div className="container">
         <div className="hero">
-          <img className="hero-pict" src="./assets/homer-hero.jpg" alt="Smart Homer Simpson" />
+          <img className="hero-pict" alt="Smart Homer Simpson" />
           <h1 className="hero-title">Ronny Cardona</h1>
           <h4 className="hero-twitter">Frontend Web Developer</h4>
           <div className="hero-social">
