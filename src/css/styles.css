@@ -52,6 +52,11 @@ body {
 }
 
 /* Nav bar styling */
+/* This active class is from react-router-dom, it's from NavLink */
+.active {
+  border-top: 2px solid cyan;
+}
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -61,7 +66,8 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: lightgray;
+  color: white;
+  font-weight: bold;
   padding: 10px;
 }
 
